@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.info {
+    padding: 10px 20px 20px 50px;
+    margin: 10px 10px 0 30px;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+} 
+.icons, .tel, .copy {
+    text-align: center;
+}
+.icon{
+    padding: 10px;
+}
+.tel, .copy{
+    font-size: 12px;
+}
+h2 {
+padding: 10px 0 20px 400px;
+font-size: 13px;
+}
+.signup{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.take{
+    color: rgb(133, 136, 141);
+    font-size: 20px;
+    margin-top: 0;
+}
+.input-rw{
+    display: flex;
+}
+.in-grp{
+    padding-right: 20px;
+    font-family: EuclidLight, sans-serif
+}
+.how select {
+    width: 75%;
+}
+label {
+    padding: 10px;
+}
+input, select{
+    width: 80%;
+    margin: 5px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(207, 202, 202);
+}
+.by{
+    color: rgb(133, 136, 141);
+    font-size: 18px;
+}
+button{
+    background: transparent;
+    color: #0a9ef3;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #0a9ef3;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+    transition: 0.4 ease;
+}
+ button:hover {
+    background: #0a9ef3;
+    color: white;
+    border: 2px solid #0a9ef3;
+    box-shadow: 0 0 5px #0a9ef3,
+    0 0 25px #0a9ef3;
+    cursor: pointer;
+    transform: scale(1.1);
+ }
